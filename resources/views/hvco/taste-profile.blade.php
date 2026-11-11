@@ -11,9 +11,9 @@
 <header class="long-hero">
     <div class="long-shell">
         <div class="delivery-note" role="status"><strong>Your guide is on its way.</strong> Check your inbox for <em>Italy Beyond the Famous Labels</em>.</div>
-        <p class="eyebrow">COMPLIMENTARY SOMMELIER TASTE DIAGNOSTIC ($350 VALUE)</p>
+        <p class="eyebrow">COMPLIMENTARY PRIVATE SESSION WITH SOMMELIER LUCA GRADI</p>
         <h1>Don't Rely on Strangers' Wine Scores. Map Your Personal Italian Wine Profile.</h1>
-        <p class="long-lead">Complete your private taste profile below to unlock a one-to-one consultation with MondoDiVino Founder &amp; Sommelier Luca Gradi. Luca personally evaluates wines at generational Italian estates, studies what is in the glass alongside the honest cellar price, and spends 20 minutes analyzing your specific answers before your call to curate bottles tailored precisely to your palate.</p>
+        <p class="long-lead">Complete your private taste profile below to unlock a one-to-one consultation with MondoDiVino Founder &amp; Sommelier Luca Gradi. Luca tastes wines in person at the producers he works with, weighs what is in the glass against its price, and reviews your answers before your call so the conversation starts from your palate.</p>
         <p><strong>100% Free &amp; Confidential · Zero Sales Pressure · Custom Producer Blueprint Included.</strong></p>
         <a class="button" href="#taste-profile">BUILD MY PRIVATE WINE PROFILE <span aria-hidden="true">→</span></a>
         <p class="cta-note">Takes 3–5 minutes. Luca will review your answers in detail before your session.</p>
@@ -48,7 +48,7 @@
         <ol class="method-list">
             <li><strong>Meet the Winemaker:</strong> Luca inspects the vineyards and cellar practices firsthand before any wine is considered.</li>
             <li><strong>Taste at the Estate:</strong> He evaluates the wine in the cellar, side-by-side with previous vintages, assessing raw quality and terroir purity.</li>
-            <li><strong>Audit the Price-to-Experience Ratio:</strong> A bottle must drastically outperform famous commercial labels in its price category to earn selection.</li>
+            <li><strong>Audit the Price-to-Experience Ratio:</strong> A good wine is not enough: it must make real sense at the price it is offered, compared with the familiar labels in its category.</li>
             <li><strong>Filter for Uniqueness &amp; Authenticity:</strong> He looks for character, balance, and food affinity—not heavy oak or manipulated profiles.</li>
             <li><strong>Independent Final Decision:</strong> Choices are made with a clear head away from estate hospitality, ensuring only true gems make the cut.</li>
         </ol>

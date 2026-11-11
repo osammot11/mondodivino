@@ -12,17 +12,13 @@
     <div class="booking-confirmation-bar">Your Taste Profile Has Been Saved &amp; Transmitted Directly to Luca.</div>
     <section class="booking-page" id="booking-selection" @if($isConfirmed) hidden @endif>
         <header class="booking-intro">
-            <p class="eyebrow">FINAL STEP: COMPLIMENTARY SOMMELIER STRATEGY SESSION ($350 VALUE)</p>
+            <p class="eyebrow">FINAL STEP: YOUR COMPLIMENTARY PRIVATE SESSION</p>
             <h1>Claim Your Private Italian Wine &amp; Cellar Blueprint Session with Luca Gradi</h1>
             <p class="booking-subheadline">Select your preferred date and time below. Luca will review your taste profile, flavor preferences, avoidances, and investment goals in detail before your session to build your bespoke Italian wine roadmap.</p>
-            
-            <div style="margin: 1.5rem auto 2rem; padding: 0.9rem 1.4rem; background: #fffaf0; border: 1px solid #d9b46f; border-radius: 8px; font-size: 0.92rem; color: #5a3c0b; text-align: center; max-width: 820px;">
-                <strong>⚠️ Strict Availability:</strong> Luca personally conducts a maximum of 8 private consultations per week to dedicate full research to each client. Spots are reserved on a first-confirmed basis.
-            </div>
 
             <ul class="booking-benefits">
                 <li><strong>1. Palate Diagnostic:</strong> 1-on-1 sommelier analysis of what grape varieties and terroirs suit your exact palate.</li>
-                <li><strong>2. Hidden-Gem Blueprint:</strong> Direct access to generational Italian family producers that outperform big commercial labels.</li>
+                <li><strong>2. Hidden-Gem Blueprint:</strong> Lesser-known Italian producers and regions chosen for character and value, not the fame of the label.</li>
                 <li><strong>3. Custom Curation &amp; No Pressure:</strong> Receive a tailored recommendation plan for your table. 100% complimentary.</li>
             </ul>
         </header>

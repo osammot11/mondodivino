@@ -41,9 +41,9 @@ class HvcoFunnelTest extends TestCase
     {
         $this->get(route('hvco.landing', ['utm_source' => 'meta']))
             ->assertOk()
-            ->assertSee('The Italian "Bottle Swap" Black Book', false)
+            ->assertSee('Discover the Italian Wines America Usually Misses')
             ->assertSee('THE PRODUCER-FIRST SELECTION METHOD')
-            ->assertSee('GET THE FREE BOTTLE-SWAP GUIDE NOW')
+            ->assertSee('SEND ME THE FREE GUIDE')
             ->assertSee('Mobile phone')
             ->assertDontSee('ZIP code')
             ->assertDontSee('PLACEHOLDER', false)
