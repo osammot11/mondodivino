@@ -39,7 +39,7 @@ class BookingTest extends TestCase
         $response = $this->get(app(TasteProfileUrlGenerator::class)->booking($lead));
 
         $response->assertOk()
-            ->assertSee('Claim Your Private Italian Wine &amp; Cellar Blueprint Session with Luca Gradi', false)
+            ->assertSee('Book Your Private Italian Wine Selection Session with Luca Gradi')
             ->assertSee('Both give Luca useful clues.')
             ->assertSee('Select your date and time')
             ->assertSee('support@example.com')

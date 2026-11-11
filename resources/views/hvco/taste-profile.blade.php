@@ -1,6 +1,6 @@
 @extends('layouts.hvco', [
     'title' => 'Build Your Private Italian Wine Profile | MondoDiVino',
-    'description' => 'Tell Luca what you enjoy and claim your complimentary Private Italian Wine Cellar & Taste Blueprint Session.',
+    'description' => 'Tell Luca what you enjoy and book your complimentary Private Italian Wine Selection Session.',
 ])
 
 @push('scripts')
@@ -11,10 +11,10 @@
 <header class="long-hero">
     <div class="long-shell">
         <div class="delivery-note" role="status"><strong>Your guide is on its way.</strong> Check your inbox for <em>Italy Beyond the Famous Labels</em>.</div>
-        <p class="eyebrow">COMPLIMENTARY PRIVATE SESSION WITH SOMMELIER LUCA GRADI</p>
+        <p class="eyebrow">COMPLIMENTARY PRIVATE ITALIAN WINE SELECTION SESSION ($120 VALUE)</p>
         <h1>Don't Rely on Strangers' Wine Scores. Map Your Personal Italian Wine Profile.</h1>
-        <p class="long-lead">Complete your private taste profile below to unlock a one-to-one consultation with MondoDiVino Founder &amp; Sommelier Luca Gradi. Luca tastes wines in person at the producers he works with, weighs what is in the glass against its price, and reviews your answers before your call so the conversation starts from your palate.</p>
-        <p><strong>100% Free &amp; Confidential · Zero Sales Pressure · Custom Producer Blueprint Included.</strong></p>
+        <p class="long-lead">Complete your private taste profile, then book 30 minutes with MondoDiVino Founder &amp; Sommelier Luca Gradi. He will turn what you enjoy into a list of six Italian bottles chosen for your palate, so you know exactly what to open next, even if you don't know a single grape by name.</p>
+        <p><strong>Complimentary · No obligation to purchase · Your six-bottle list is yours to keep.</strong></p>
         <a class="button" href="#taste-profile">BUILD MY PRIVATE WINE PROFILE <span aria-hidden="true">→</span></a>
         <p class="cta-note">Takes 3–5 minutes. Luca will review your answers in detail before your session.</p>
     </div>
@@ -44,33 +44,33 @@
     <section>
         <p class="eyebrow">THE PRODUCER-FIRST SELECTION METHOD</p>
         <h2>How Luca Decides Which Bottles Earn a Place in Your Glass</h2>
-        <p>Luca never buys from glossy sales catalogues. He follows a rigorous 5-step vetting protocol directly in Italy:</p>
+        <p>No bottle enters MondoDiVino's selection without passing these five steps in Italy:</p>
         <ol class="method-list">
-            <li><strong>Meet the Winemaker:</strong> Luca inspects the vineyards and cellar practices firsthand before any wine is considered.</li>
-            <li><strong>Taste at the Estate:</strong> He evaluates the wine in the cellar, side-by-side with previous vintages, assessing raw quality and terroir purity.</li>
-            <li><strong>Audit the Price-to-Experience Ratio:</strong> A good wine is not enough: it must make real sense at the price it is offered, compared with the familiar labels in its category.</li>
-            <li><strong>Filter for Uniqueness &amp; Authenticity:</strong> He looks for character, balance, and food affinity—not heavy oak or manipulated profiles.</li>
-            <li><strong>Independent Final Decision:</strong> Choices are made with a clear head away from estate hospitality, ensuring only true gems make the cut.</li>
+            <li><strong>Luca Tastes at the Cellar:</strong> Every wine is tasted by Luca in person, at the producer's own estate, before it is considered.</li>
+            <li><strong>He Picks the Bottle Himself:</strong> Luca chooses the bottle to taste from the producer's stock, so there is no specially prepared sample.</li>
+            <li><strong>Only the Best Few Survive:</strong> Of the wines tasted on each visit, only a few earn a place in the selection.</li>
+            <li><strong>The Price Has to Make Sense:</strong> A good wine is not enough: it must make real sense at the price it is offered, compared with the familiar labels in its category.</li>
+            <li><strong>Independent Final Decision:</strong> Luca decides a week later, away from the cellar and any pressure from the producer.</li>
         </ol>
-        <p><strong>The Producer-First Selection Method</strong> guarantees authentic character and incredible value over empty label prestige.</p>
+        <p>That is <strong>The Producer-First Selection Method</strong>. Then your palate decides which of those wines belong in your glass.</p>
     </section>
 
     <section class="luca-section">
         <p class="eyebrow">MEET LUCA GRADI</p>
-        <h2>Founder &amp; Master Sommelier, MondoDiVino</h2>
-        <div class="luca-copy"><p>Born and raised in Italy, Luca has spent decades immersed in the Italian wine landscape, developing direct relationships with family producers who refuse to sell to mass-market industrial distributors.</p><p>His role in your private session is strictly consultative: analyze your taste preferences, decode what you love, and build a bespoke selection roadmap tailored exclusively to your palate.</p></div>
+        <h2>Founder &amp; Sommelier, MondoDiVino</h2>
+        <div class="luca-copy"><p>Luca lives and works in Italy, where the wines in his selection are made. He supplies Italian restaurants and works directly with small producers who make a few hundred bottles a year, too few to reach most American shelves.</p><p>His role in your private session is strictly consultative: analyze your taste preferences, decode what you love, and build a list of six bottles chosen for your palate.</p></div>
     </section>
 
     <section>
         <p class="eyebrow">WHY WE MAP YOUR TASTE PROFILE IN ADVANCE</p>
-        <h2>Your answers give Luca the exact clues needed for your custom blueprint</h2>
+        <h2>Your answers give Luca the exact clues he needs for your six bottles</h2>
         <p>Luca does not conduct generic sales calls. Your profile enables him to study your preferences in advance:</p>
         <div class="benefit-grid">
             <div><h3>The flavor profiles you crave</h3><p>Whether you lean toward crisp &amp; mineral whites or silky &amp; age-worthy reds, plain English is all we need.</p></div>
             <div><h3>Bottles you loved (and hated)</h3><p>Your memorable bottles—and your disappointments—tell Luca more than any score could.</p></div>
             <div><h3>The characteristics you avoid</h3><p>Heavy tannins, high acidity, oakiness, or sweetness: knowing what to avoid protects your table.</p></div>
             <div><h3>Your occasions &amp; table goals</h3><p>Weeknight dinners, hosting friends, cellar-building, or gifts each require a distinct curation strategy.</p></div>
-            <div><h3>Your preferred investment level</h3><p>Guarantees every bottle recommended fits comfortably within your desired budget range.</p></div>
+            <div><h3>Your preferred investment level</h3><p>Helps Luca recommend bottles that fit comfortably within the budget you choose.</p></div>
         </div>
     </section>
 
@@ -82,17 +82,18 @@
     </section>
 
     <section class="offer-section">
-        <h2>Your Complimentary Private Italian Wine &amp; Cellar Blueprint Session</h2>
-        <p>Complete your taste profile below and reserve your dedicated 1-on-1 session with Luca Gradi.</p>
-        <p>During your private 20-minute session, you will:</p>
+        <h2>Your Complimentary Private Italian Wine Selection Session</h2>
+        <p>Complete your taste profile below and book 30 minutes one-to-one with Luca Gradi. In your session, Luca will:</p>
         <ul>
-            <li>Receive a full diagnostic of your personal palate and Italian wine profile;</li>
-            <li>Discover 3–5 specific hidden-gem producers that match your taste and budget with precision;</li>
-            <li>Learn how to avoid the "famous label markup" on restaurant wine lists and retail shelves;</li>
-            <li>Get a custom bottle curation plan designed for your upcoming dinners, gifts, or cellar;</li>
-            <li>Gain direct access to allocate private cellar allocations unavailable through ordinary retail channels.</li>
+            <li>go through your profile with you: the bottles you loved, the ones that disappointed you and the occasions you're buying for;</li>
+            <li>build, live, a list of six Italian bottles from six different producers, chosen for your palate and budget;</li>
+            <li>explain for each one who made it, where it comes from and why it suits you;</li>
+            <li>tell you how to serve each bottle, what to pair it with and when to open it.</li>
         </ul>
-        <p><strong>100% Free · No Obligation to Purchase · Completely Confidential.</strong></p>
+        <p>The list is yours to keep. You can look for those bottles on your own, or ask Luca to send them to you.</p>
+        <h3>Why is it complimentary?</h3>
+        <p>Luca works with small producers who make a few hundred bottles a year, and their wines also go to restaurants and buyers in Italy. Before he sends any of those bottles to someone in the US, he wants to know they'll truly enjoy them. This conversation is how he decides.</p>
+        <p><strong>$120 value · Complimentary · No obligation to purchase.</strong></p>
         <a class="button" href="#taste-profile">BUILD MY PRIVATE WINE PROFILE <span aria-hidden="true">→</span></a>
     </section>
 </article>
@@ -156,14 +157,14 @@
             <label class="consent profile-consent"><input name="profile_consent" type="checkbox" value="1" @checked(old('profile_consent'))><span>{{ $profileConsentText }}</span></label>@error('profile_consent')<p class="error">{{ $message }}</p>@enderror
             <label class="consent profile-consent"><input name="sms_consent" type="checkbox" value="1" @checked(old('sms_consent', $profile->sms_consent))><span>{{ $smsConsentText }} <strong>Optional.</strong></span></label>@error('sms_consent')<p class="error">{{ $message }}</p>@enderror
             <div class="step-actions"><button type="button" class="text-button" data-back>← BACK</button><button type="submit" class="button submit-profile" data-submit><span data-submit-text>SAVE MY PROFILE &amp; CHOOSE A TIME →</span></button></div>
-            <p class="form-microcopy">Next, you'll choose a convenient time for your private session with Luca. 100% complimentary with zero purchase obligation.</p>
+            <p class="form-microcopy">Next, you'll choose a convenient time for your private session with Luca. Complimentary, with no obligation to purchase.</p>
         </fieldset>
     </form>
 </section>
 
 <section class="final-cta">
     <h2>Ready to look beyond the labels you already know?</h2>
-    <p>Tell Luca what you enjoy and claim your complimentary Sommelier Blueprint Session.</p>
+    <p>Tell Luca what you enjoy and book your complimentary Private Italian Wine Selection Session.</p>
     <a class="button" href="#taste-profile">BUILD MY PRIVATE WINE PROFILE <span aria-hidden="true">→</span></a>
     <p class="postscript"><strong>P.S.</strong> Trophy labels and magazine scores are designed to sell mass inventory. Your own palate is the only compass that truly matters. Tell Luca what you enjoy, and let's craft a selection you'll love opening.</p>
 </section>

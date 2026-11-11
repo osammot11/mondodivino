@@ -49,9 +49,9 @@ class TasteProfileTest extends TestCase
             ->assertSee('Map Your Personal Italian Wine Profile', false)
             ->assertSee('The Producer-First Selection Method')
             ->assertSee('How Luca Decides Which Bottles Earn a Place in Your Glass')
-            ->assertSee('Meet the Winemaker')
+            ->assertSee('Luca Tastes at the Cellar')
             ->assertSee('Independent Final Decision')
-            ->assertSee('Your answers give Luca the exact clues')
+            ->assertSee('Your answers give Luca the exact clues he needs')
             ->assertSee('Tell Luca What Belongs in Your Glass')
             ->assertSee('href="#taste-profile"', false)
             ->assertDontSee('[INSERT', false)
@@ -113,7 +113,7 @@ class TasteProfileTest extends TestCase
         $this->get($response->headers->get('Location'))
             ->assertOk()
             ->assertSee('Your Taste Profile Has Been Saved &amp; Transmitted Directly to Luca.', false)
-            ->assertSee('Claim Your Private Italian Wine &amp; Cellar Blueprint Session with Luca Gradi', false)
+            ->assertSee('Book Your Private Italian Wine Selection Session with Luca Gradi')
             ->assertSee('Online scheduling is being configured.')
             ->assertDontSee('cal.com', false);
     }

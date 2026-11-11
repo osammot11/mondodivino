@@ -1,4 +1,4 @@
-@extends('layouts.hvco', ['title' => 'Private Italian Wine Cellar & Taste Blueprint Session with Luca | MondoDiVino'])
+@extends('layouts.hvco', ['title' => 'Private Italian Wine Selection Session with Luca | MondoDiVino'])
 
 @php
     $isConfirmed = $booking && in_array($booking->status, [\App\Enums\BookingStatus::Booked, \App\Enums\BookingStatus::Rescheduled], true);
@@ -12,14 +12,14 @@
     <div class="booking-confirmation-bar">Your Taste Profile Has Been Saved &amp; Transmitted Directly to Luca.</div>
     <section class="booking-page" id="booking-selection" @if($isConfirmed) hidden @endif>
         <header class="booking-intro">
-            <p class="eyebrow">FINAL STEP: YOUR COMPLIMENTARY PRIVATE SESSION</p>
-            <h1>Claim Your Private Italian Wine &amp; Cellar Blueprint Session with Luca Gradi</h1>
-            <p class="booking-subheadline">Select your preferred date and time below. Luca will review your taste profile, flavor preferences, avoidances, and investment goals in detail before your session to build your bespoke Italian wine roadmap.</p>
+            <p class="eyebrow">FINAL STEP: YOUR COMPLIMENTARY SESSION ($120 VALUE)</p>
+            <h1>Book Your Private Italian Wine Selection Session with Luca Gradi</h1>
+            <p class="booking-subheadline">Select your preferred date and time below. Luca will review your taste profile before your 30-minute session, so you can spend it building your list of six bottles together.</p>
 
             <ul class="booking-benefits">
-                <li><strong>1. Palate Diagnostic:</strong> 1-on-1 sommelier analysis of what grape varieties and terroirs suit your exact palate.</li>
-                <li><strong>2. Hidden-Gem Blueprint:</strong> Lesser-known Italian producers and regions chosen for character and value, not the fame of the label.</li>
-                <li><strong>3. Custom Curation &amp; No Pressure:</strong> Receive a tailored recommendation plan for your table. 100% complimentary.</li>
+                <li><strong>Personal:</strong> Luca reviews the profile you just completed before the call.</li>
+                <li><strong>Practical:</strong> You leave with six Italian bottles from six different producers, chosen for your palate, plus how to serve and pair them.</li>
+                <li><strong>No pressure:</strong> The session is complimentary and the list is yours to keep, with no obligation to purchase.</li>
             </ul>
         </header>
         <section class="calendar-panel" aria-labelledby="calendar-title">
