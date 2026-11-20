@@ -38,27 +38,26 @@
             <li>How can I serve bottles that stun my dinner guests without spending $150+ per bottle?</li>
         </ul>
         <p>The solution is not more shelf choice. It is an independent, expert filter.</p>
-        <p>Familiar labels keep you trapped in the same overpriced slice of Italy. Luca's Producer-First Method takes you directly to the source.</p>
+        <p>Familiar labels keep you trapped in the same overpriced slice of Italy. Luca's "Middle of the Table" filter takes you back to the producer and the place.</p>
     </section>
 
     <section>
-        <p class="eyebrow">THE PRODUCER-FIRST SELECTION METHOD</p>
+        <p class="eyebrow">LUCA'S METHOD: THE "MIDDLE OF THE TABLE" FILTER</p>
         <h2>How Luca Decides Which Bottles Earn a Place in Your Glass</h2>
-        <p>No bottle enters MondoDiVino's selection without passing these five steps in Italy:</p>
+        <p>Four steps, in this order. This is how every bottle on MONDOdiVINO is chosen:</p>
         <ol class="method-list">
-            <li><strong>Luca Tastes at the Cellar:</strong> Every wine is tasted by Luca in person, at the producer's own estate, before it is considered.</li>
-            <li><strong>He Picks the Bottle Himself:</strong> Luca chooses the bottle to taste from the producer's stock, so there is no specially prepared sample.</li>
-            <li><strong>Only the Best Few Survive:</strong> Of the wines tasted on each visit, only a few earn a place in the selection.</li>
-            <li><strong>The Price Has to Make Sense:</strong> A good wine is not enough: it must make real sense at the price it is offered, compared with the familiar labels in its category.</li>
-            <li><strong>Independent Final Decision:</strong> Luca decides a week later, away from the cellar and any pressure from the producer.</li>
+            <li><strong>Producer Before Label:</strong> Luca built his cellar by following people, not names: small growers and artisans he found in private cellars and restaurants all over Italy. The first question is always who made it.</li>
+            <li><strong>Place Before Trend:</strong> Every bottle should tell a territory. If you can't tell where a wine comes from by tasting it, it's probably made for the market, not for the place.</li>
+            <li><strong>Taste Before Theory:</strong> You don't need the vocabulary. The question is simple: do you like it?</li>
+            <li><strong>The Table Test:</strong> Wine was born to add a little more conversation at the table. If a bottle gets people talking and asking for a second glass, it has done its job.</li>
         </ol>
-        <p>That is <strong>The Producer-First Selection Method</strong>. Then your palate decides which of those wines belong in your glass.</p>
+        <p>The famous label answers only one question: is it well known? <strong>The "Middle of the Table" filter</strong> answers the ones that matter: is it real, is it from somewhere, and will you enjoy it with the people you love? In your session, Luca applies it to your palate.</p>
     </section>
 
     <section class="luca-section">
         <p class="eyebrow">MEET LUCA GRADI</p>
         <h2>Founder &amp; Sommelier, MondoDiVino</h2>
-        <div class="luca-copy"><p>Luca lives and works in Italy, where the wines in his selection are made. He supplies Italian restaurants and works directly with small producers who make a few hundred bottles a year, too few to reach most American shelves.</p><p>His role in your private session is strictly consultative: analyze your taste preferences, decode what you love, and build a list of six bottles chosen for your palate.</p></div>
+        <div class="luca-copy"><p>Luca took his first sommelier courses in Umbria with the FISAR and AIS delegations and became a sommelier at 22. A year later he opened MONDOdiVINO. By then he was already a serious collector, hunting bottles across Italy in private cellars and restaurants. Today the search continues: small, independent producers and wine artisans, direct from the winery.</p><p>His role in your private session is strictly consultative: analyze your taste preferences, decode what you love, and build a list of six bottles chosen for your palate.</p></div>
     </section>
 
     <section>

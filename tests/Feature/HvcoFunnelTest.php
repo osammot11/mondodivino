@@ -42,7 +42,7 @@ class HvcoFunnelTest extends TestCase
         $this->get(route('hvco.landing', ['utm_source' => 'meta']))
             ->assertOk()
             ->assertSee('Discover the Italian Wines America Usually Misses')
-            ->assertSee('THE PRODUCER-FIRST SELECTION METHOD')
+            ->assertSee('THE "MIDDLE OF THE TABLE" FILTER', false)
             ->assertSee('SEND ME THE FREE GUIDE')
             ->assertSee('Mobile phone')
             ->assertDontSee('ZIP code')

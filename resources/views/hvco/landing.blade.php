@@ -99,7 +99,7 @@
     <p>Inside, you'll discover:</p>
     <ul>
         <li>Why a famous name can add more to the price than it adds to the glass</li>
-        <li>The producer-first rule for judging an unfamiliar Italian bottle</li>
+        <li>7 questions to judge an Italian bottle you've never seen</li>
         <li>Overlooked regions and native grapes worth learning by name</li>
         <li>Simple clues that separate real substance from expensive storytelling</li>
         <li>How to explore Italian wine with more confidence, and far less guesswork</li>
@@ -109,7 +109,7 @@
 <section class="authority">
     <div class="authority-mark" aria-hidden="true">PF</div>
     <div>
-        <p class="eyebrow">THE PRODUCER-FIRST SELECTION METHOD</p>
+        <p class="eyebrow">THE "MIDDLE OF THE TABLE" FILTER</p>
         <h2>Selected by Luca Gradi, Founder &amp; Sommelier at MondoDiVino</h2>
         <p>Every recommendation starts with the producer, the territory and what's actually in the glass, not the fame of the label.</p>
     </div>
