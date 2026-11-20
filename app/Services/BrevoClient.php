@@ -74,6 +74,27 @@ class BrevoClient
         $this->request()->post('/smtp/email', $payload)->throw();
     }
 
+    public function sendSessionLink(HvcoLead $lead, string $sessionUrl): void
+    {
+        $templateKey = config('services.brevo.session_link_template_id') ? 'session_link_template_id' : 'hvco_template_id';
+        $payload = [
+            'templateId' => $this->requiredInteger($templateKey),
+            'to' => [['email' => $lead->email, 'name' => $lead->first_name]],
+            'params' => [
+                'first_name' => $lead->first_name,
+                'guide_url' => $this->requiredString('hvco_guide_url'),
+                'profile_url' => $sessionUrl,
+                'session_url' => $sessionUrl,
+            ],
+        ];
+
+        if ($email = config('services.brevo.sender_email')) {
+            $payload['sender'] = ['email' => $email, 'name' => config('services.brevo.sender_name')];
+        }
+
+        $this->request()->post('/smtp/email', $payload)->throw();
+    }
+
     public function upsertTasteProfile(TasteProfile $profile): void
     {
         $lead = $profile->lead;

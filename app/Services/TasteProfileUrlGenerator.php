@@ -2,6 +2,7 @@
 
 namespace App\Services;
 
+use App\Enums\TasteProfileStatus;
 use App\Models\HvcoLead;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\URL;
@@ -37,6 +38,28 @@ class TasteProfileUrlGenerator
     public function unavailable(HvcoLead $lead): string
     {
         return $this->signedRoute('taste-profile.unavailable', $lead);
+    }
+
+    /**
+     * The page a returning lead should land on: the taste profile until it is
+     * completed, then the booking page, or the neutral page for leads who are
+     * under age or outside the serviceable states.
+     */
+    public function nextStep(HvcoLead $lead): string
+    {
+        $profile = $lead->tasteProfile;
+
+        if ($profile?->age_confirmed === false) {
+            return $this->ineligible($lead);
+        }
+
+        if ($profile?->status !== TasteProfileStatus::Completed) {
+            return $this->profile($lead);
+        }
+
+        return $profile->is_serviceable === false
+            ? $this->unavailable($lead)
+            : $this->booking($lead);
     }
 
     public function resolve(Request $request, string $token): ?HvcoLead

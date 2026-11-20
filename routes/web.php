@@ -6,6 +6,7 @@ use App\Http\Controllers\CalcomWebhookController;
 use App\Http\Controllers\HvcoLandingController;
 use App\Http\Controllers\MetaConsentController;
 use App\Http\Controllers\MetaPageViewController;
+use App\Http\Controllers\SessionLinkController;
 use App\Http\Controllers\TasteProfileController;
 use Illuminate\Foundation\Http\Middleware\ValidateCsrfToken;
 use Illuminate\Support\Facades\Route;
@@ -24,6 +25,10 @@ Route::get('/taste-profile/{token}/not-eligible', [TasteProfileController::class
     ->name('taste-profile.ineligible');
 Route::get('/taste-profile/{token}/availability', [TasteProfileController::class, 'unavailable'])
     ->name('taste-profile.unavailable');
+Route::get('/session', [SessionLinkController::class, 'show'])->name('session-link.show');
+Route::post('/session', [SessionLinkController::class, 'store'])
+    ->middleware('throttle:5,1')
+    ->name('session-link.store');
 Route::get('/private-session/{token}', [BookingController::class, 'show'])->name('booking.show');
 Route::get('/private-session/{token}/status', [BookingController::class, 'status'])
     ->middleware('throttle:30,1')->name('booking.status');

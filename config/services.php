@@ -40,6 +40,7 @@ return [
         'list_id' => env('BREVO_LIST_ID'),
         'hvco_template_id' => env('BREVO_HVCO_TEMPLATE_ID'),
         'hvco_guide_url' => env('BREVO_HVCO_GUIDE_URL'),
+        'session_link_template_id' => env('BREVO_SESSION_LINK_TEMPLATE_ID'),
         'webhook_secret' => env('BREVO_WEBHOOK_SECRET'),
         'sender_email' => env('BREVO_SENDER_EMAIL'),
         'sender_name' => env('BREVO_SENDER_NAME', 'MondoDiVino'),

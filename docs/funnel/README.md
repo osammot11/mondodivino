@@ -11,6 +11,12 @@ Laravel/database is the source of truth for lead, taste-profile, and booking sta
 
 For safe local work, keep real provider secrets out of `.env` and do not run a queue worker. Database-backed jobs will remain queued and automated tests use mocked HTTP responses. Run the full suite with `php artisan test`.
 
+## Generic session link (`/session`)
+
+The PDF guide is identical for every reader, so it cannot carry the signed, per-lead taste-profile link. Its button points to `https://YOUR_HOST/session` instead. The visitor enters the email used for the guide; if it belongs to a lead, `SendSessionLinkEmail` emails the right signed link (taste profile until completed, then booking, or the neutral availability page). Unknown emails, under-21 leads and repeat requests within 10 minutes get the same neutral confirmation and no email, so the page never reveals who is a lead. The POST is rate limited (5/min per IP) and records a `session_link_requested` funnel event. Expired-link pages also point here.
+
+Set `BREVO_SESSION_LINK_TEMPLATE_ID` to a dedicated Brevo template with params `first_name` and `session_url` and a single "Book your session with Luca" button. Without it the job falls back to the A0 guide template, whose copy may not match a booking-page link.
+
 ## Cal.com embed configuration
 
 - `CALCOM_EMBED_URL`: preferred full public event URL, for example `https://cal.com/username/private-wine-session`. This is the only setting required to render the inline calendar.
